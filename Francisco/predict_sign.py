@@ -17,16 +17,16 @@ model = load_model(MODEL_PATH)
 
 # Define category labels (ensure this matches the dataset categories)
 CATEGORY_LABELS = {
+    0: "speed limit 20",
     1: "Speed Limit 30",
-    3: "Speed limit 40",
+    2: "speed limit 50",
+    3: "Speed limit 60",
     4: "Speed limit 70",
     5: "Speed limit 80",
-    11: "One Way",
+    9: "No Overtaking",
     14: "Stop Sign",
     17: "No Entry",
-    18: "Warning",
     40: "RoundAbout",
-    # Add other labels as needed...
 }
 
 
